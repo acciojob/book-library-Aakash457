@@ -1,23 +1,24 @@
-body{
-	background-color: #f8f8f8;
-}
-.center{
-	text-align: center;
-}
-.book-library{
-	background-color: #ffffff;
-	padding: 20px;
-	width: 250px;
+body {
+    background-color: #f8f8f8;
 }
 
-.book{
-	margin-bottom: 20px; 
+.book-library {
+    background-color: #ffffff;
+    padding: 20px;
 }
 
-.author{
-	#777777
+.book {
+    margin-bottom: 20px;
 }
 
-.price{
-	color: #2ecc71;
+.book p {
+    color: #777777; /* author */
+}
+
+.book div {
+    background-color: #2ecc71; /* price block */
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: fit-content;
 }
